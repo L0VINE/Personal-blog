@@ -3,7 +3,7 @@ import os
 class Config:
 
     SECRET_KEY='1234'
-    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://moringaschool:Access@localhost/'
+    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://moringaschool:Access@localhost/blogs'
 
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
@@ -30,7 +30,7 @@ class ProdConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringaschool:Access@localhost/blogs'
 
 class TestConfig(Config):
     SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://moringaschool:Access@localhost/blogs'
