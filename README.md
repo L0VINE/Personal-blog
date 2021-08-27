@@ -1,6 +1,6 @@
 # Blog
 
-## Built By [T](https://github.com//)
+## Built By [LOVINE]
 
 ## Description
 an application that allows users to use that one minute wisely. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
@@ -37,7 +37,7 @@ Bloggers would like to:
 ### Cloning
 * In your terminal:
 
-        $ git clone https://github.com//
+        $ git clone https://github.com/L0VINE/Personal-blog
         $ cd peech
 
 ## Running the Application
