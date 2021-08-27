@@ -1,0 +1,13 @@
+.h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+#jj{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+#jm{
+  background-image: url('/static/photos/home.jpg')
+}
